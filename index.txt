@@ -1,0 +1,5 @@
+Plans
+
+1.Have 3 options friends & family, US, My achievements.
+2. when clicked on an option they will have a song playing.
+3. Figure out how to keep the device awake. 

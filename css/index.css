@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    color: cyan;
+    text-align: center;
+}
+#timeContainer{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: fit-content;
+    background: transparent;
+    background-color: blur("20px");
+    border-radius: 10px;
+    border: 5px solid white;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    transition: all 0.25s linear;
+}
+.options:hover{
+    transform: scale(1.5);
+}
+#option{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+}
+#opt1{
+    width: 150px;
+    height: 125px;
+    border-radius: 20px;
+}
+#opt2{
+    width: 150px;
+    height: 75px;
+    border-radius: 20px;
+}
+#opt3{
+    width: 150px;
+    height: 75px;
+    border-radius: 20px;
+}
+.optSpan{
+    font-weight: bolder;
+    font-size:large;
+}
